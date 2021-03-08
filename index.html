@@ -42,14 +42,14 @@
     numbers = numbers.sort(function(a, b){return a-b});
 
     //ask user for the winning numbers
-    w = prompt("Please Enter the Winning Numbers (separate each number by a space)", "1 2 3 4 5");
+    w = prompt("Please Enter the Winning Numbers (separate each number by a space)", "");
 
     // turn input intp an array and sort
     winning = w.split(" ");
     winning = winning.sort(function(a, b){return a-b});
 
     //ask user for the winning lucky number
-    ball = prompt("Please Enter the Lucky Ball Number", "1");
+    ball = prompt("Please Enter the Lucky Ball Number", "");
 
     //compare the two lucky numbers
     if (ball == lucky){
