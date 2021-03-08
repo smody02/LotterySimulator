@@ -1,0 +1,31 @@
+body,html{
+  font-size: 24px;
+  font-family: "Lucida Console", "Courier New", monospace;
+  text-align:left;
+  box-sizing:border-box;
+  margin:10px;
+  color: #333333;
+  font-weight: bold;
+  background-color: #FFE5F4;
+  background-size:cover; height:15%;
+  width:100%;
+}
+
+#top {
+  background-color: #FFA2D5;
+  background-size:cover; height:15%;
+  width:100%;
+  padding:35px;
+  box-sizing:border-box;
+  text-align:center;
+  margin:10px;
+  position:set;
+  }
+
+.title{
+  font-size: 35px;
+  text-align:center;
+  color:#333333;
+  font-weight: bold;
+  font-family: "Lucida Console", "Courier New", monospace;
+  }
